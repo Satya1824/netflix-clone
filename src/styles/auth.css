@@ -1,0 +1,32 @@
+.auth-cnt {
+    min-height: 100dvh;
+    width: 100dvw;
+}
+
+.auth-cnt img {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.logo-cnt {
+    width: 100%;
+    padding-left: 11.5dvw;
+    padding-top: 20px;
+}
+
+.logo-cnt img{
+    height: 50px;
+    width: 160px;
+}
+
+.bg::after {
+    content: "";
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: .4;
+}
